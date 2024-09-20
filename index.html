@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invasor</title>
+
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+<main>
+<div class="capa">
+    <img class="imagem" src="./src/imagens/invasor capa.jpg" alt="invasor">
+</div>
+
+<div class="playlist">
+    <audio id="video">
+        <source type="audio/mpeg"></audio>
+    <div class="controles">
+        <button class="botao" id="anterior">
+            <img class="controle-imagem" src="./src/imagens/anterior.png">
+        </button>
+        <button class="botao" id="play">
+            <img class="controle-imagem" src="./src/imagens/tocar.png">
+        </button>
+        <button class="botao" id="pause">
+            <img class="controle-imagem" src="./src/imagens/pause.png">
+        </button>
+        <button class="botao" id="proximo">
+            <img class="controle-imagem" src="./src/imagens/proximo.png">   
+        </button> 
+        <div class="tempo">
+            <input type="range" id="barraProgresso" min="0" max="100" value="0">
+        <span id="tempoAtual">0:00</span> / <span id="tempoTotal">0:00</span>
+        </div>
+    </div>
+
+    <div class="controles">
+    
+    </div>
+
+    <div class="playlist-controles">
+        <button class="nome selecionado" data-index="0">Invasor</button>
+        <button class="nome" data-index="1">Não Acreditei</button>
+        <button class="nome" data-index="2">Viagem de Chihiro</button>
+        <button class="nome" data-index="3">Roda Gigante</button>
+        <button class="nome" data-index="4">Sem Querer</button>
+        <button class="nome" data-index="5">Algodão Interlúdio</button>
+        <button class="nome" data-index="6">Reigan</button>
+        <button class="nome" data-index="7">Desabafos não mentem</button>
+        <button class="nome" data-index="8">Camomila</button>
+    </div>
+</div>
+</main>
+<script src="./src/js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+@media (max-width: 425px){
+    .imagem{
+        width: 300px;
+        margin-top: 66px;
+        opacity: 1.0;
+    }
+
+    .playlist-controles{
+        max-width: 250px;
+        margin-left: -40px;
+    }
+
+.controles{
+    margin-left: -60px;
+}
+
+.tempo{
+    margin-left: -25px;
+}
+
+    .controle-imagem{
+        width: 40px;
+    }
+
+    .capa{
+        margin-bottom: 0px;
+    }
+
+
+}
